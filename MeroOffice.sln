@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeroOffice", "MeroOffice\MeroOffice.csproj", "{A05FD91F-897F-4352-A9B2-D3285C0B1FE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALayer", "DALayer\DALayer.csproj", "{CEF50371-B3D4-4AE9-BCBC-817AE3B12A13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BALayer", "BALayer\BALayer.csproj", "{FF9DF384-40D5-4B77-9AAD-C2F9D23A28B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A05FD91F-897F-4352-A9B2-D3285C0B1FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A05FD91F-897F-4352-A9B2-D3285C0B1FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A05FD91F-897F-4352-A9B2-D3285C0B1FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A05FD91F-897F-4352-A9B2-D3285C0B1FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEF50371-B3D4-4AE9-BCBC-817AE3B12A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF50371-B3D4-4AE9-BCBC-817AE3B12A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF50371-B3D4-4AE9-BCBC-817AE3B12A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF50371-B3D4-4AE9-BCBC-817AE3B12A13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF9DF384-40D5-4B77-9AAD-C2F9D23A28B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF9DF384-40D5-4B77-9AAD-C2F9D23A28B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF9DF384-40D5-4B77-9AAD-C2F9D23A28B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF9DF384-40D5-4B77-9AAD-C2F9D23A28B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DB887F8-A7C7-426A-A1EC-65D79874F267}
+	EndGlobalSection
+EndGlobal

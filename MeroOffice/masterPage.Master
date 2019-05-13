@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterPage.master.cs" Inherits="MeroOffice.masterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+       <style type="text/css">
+        #head {
+            width: 100%;
+            text-align: center;
+            font-size: 45px;
+            background-color: aliceblue;
+           }
+        .navbar {
+            overflow: hidden;
+            background-color: #78cdff;
+            width: 60%;
+            margin: 0 auto;
+        }
+
+        .menu {
+            float: left;
+            overflow: hidden;
+            width: 25%
+        }
+
+            .menu .dropbtn {
+                font-size: 16px;
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+            }
+
+            .menu:hover .dropbtn {
+                background-color: grey;
+            }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content #b {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+                .dropdown-content #b:hover {
+                    background-color: #ddd;
+                }
+
+        .menu:hover .dropdown-content {
+            display: block;
+        }
+  
+        .auto-style1 {
+            height: 27px;
+        }
+     
+        #main-1{
+            float:left;
+            margin-left: 280px;
+            text-align:left;
+        }
+        #display{
+            float:left;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

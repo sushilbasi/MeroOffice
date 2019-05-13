@@ -1,0 +1,28 @@
+﻿body {
+}
+
+#form1 {
+    height: 100%;
+}
+
+#ff {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+}
+
+#main-1 {
+    float: left;
+    width: 50%;
+}
+
+
+
+#entry {
+    float: left;
+}
+
+#display {
+    float: right;
+    width: 50%;
+}
